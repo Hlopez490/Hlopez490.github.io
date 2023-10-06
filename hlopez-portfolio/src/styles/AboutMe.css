@@ -1,0 +1,12 @@
+.about {
+    width: 100%;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    color: #2e3747;
+  }
+
+  .txImg{
+    width: 50%; 
+    border-radius: 10%;
+    object-fit: cover;
+  }
