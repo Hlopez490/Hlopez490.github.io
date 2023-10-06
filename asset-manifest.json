@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.510e9e34.css",
+    "main.js": "/static/js/main.64965993.js",
+    "static/js/787.ea889511.chunk.js": "/static/js/787.ea889511.chunk.js",
+    "static/media/proj4.png": "/static/media/proj4.3eea68fe4131a694f507.png",
+    "static/media/proj2.png": "/static/media/proj2.5d3ca5fc736f15a9b408.png",
+    "static/media/proj3.png": "/static/media/proj3.86f0aac986cadde9d821.png",
+    "static/media/Me.jpg": "/static/media/Me.76662e1758455dd52dab.jpg",
+    "static/media/CometAcademy.JPG": "/static/media/CometAcademy.f951619166fb649328ed.JPG",
+    "index.html": "/index.html",
+    "main.510e9e34.css.map": "/static/css/main.510e9e34.css.map",
+    "main.64965993.js.map": "/static/js/main.64965993.js.map",
+    "787.ea889511.chunk.js.map": "/static/js/787.ea889511.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.510e9e34.css",
+    "static/js/main.64965993.js"
+  ]
+}
