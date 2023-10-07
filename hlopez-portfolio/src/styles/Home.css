@@ -35,6 +35,7 @@
   .about .prompt {
     width: 40%;
     font-size: 30px;
+    color: white;
   }
   .prompt svg {
     font-size: 60px;
@@ -47,7 +48,6 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
   }
   
@@ -55,12 +55,19 @@
     color: #2e3747;
   }
   
-  .skills .list {
+  .skills .skill-list {
     list-style: none;
-    width: 60%;
+    width: 50%;
   }
   
-  .list span {
+  .skills .item{
+    padding: .5rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    background-color: lightgray;
+  }
+
+  .skill-list span {
     font-size: 20px;
   }
   
@@ -78,7 +85,7 @@
     .skills {
       text-align: center;
     }
-    .list {
+    .skill-list {
       padding: 0;
     }
   

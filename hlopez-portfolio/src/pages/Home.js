@@ -27,7 +27,7 @@ function Home() {
       </div>
       <div className="skills">
         <h1> Skills</h1>
-        <ol className="list">
+        <ol className="skill-list">
           <li className="item">
             <h2>Languages</h2>
             <span>JavaScript, Java, Python, C, C++</span>
