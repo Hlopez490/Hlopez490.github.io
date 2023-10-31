@@ -61,14 +61,14 @@
   }
   
   .skills .item{
-    padding: .5rem;
+    padding: .25rem;
     margin: 1rem;
     border-radius: 0.5rem;
     background-color: lightgray;
   }
 
   .skill-list span {
-    font-size: 20px;
+    font-size: 25px;
   }
   
   @media only screen and (max-width: 600px) {
