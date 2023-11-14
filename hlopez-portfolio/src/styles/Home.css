@@ -7,40 +7,63 @@
 
 
   .meImg{
-    width: 300px; 
-    height: 450px;
-    border-radius: 10%;
+    width: 50%; 
+    height: auto;
+    border-radius: 0%;
     object-fit: cover;
+    box-shadow: 0 5px 5px 5px rgba(13,110,0 253, 0.1);
+    background-color: lightslategray;
+    animation: animate 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+  }
+
+  @keyframes animate{
+    0%, 100%{
+      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+    50%{
+      border-radius: 20% 60% 70% 40% / 50% 60% 30% 60%;
+    }
   }
   
   .about {
-    width: 100%;
+    width: 40%;
     height: calc(100vh - 100px);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
     background-color: #2e3747;
     color: #f0f0f0;
   }
-  
-  .about h2 {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 80px;
-    color: #e9d35b;
-    height: 50px;
+
+  .hero-container {
+    display: inline;
   }
-  
-  .about .prompt {
+
+  .prompt svg {
+    font-size: 60px;
+    color: white;
+  }
+
+  .details-container{
     width: 40%;
     font-size: 30px;
     color: white;
+    display: block;
   }
-  .prompt svg {
-    font-size: 60px;
-    margin: 5px;
-    color: white;
+
+  .name-container {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    color: #e9d35b;
+    flex: 1; 
+  }
+
+  .text-container {
+    flex: 1; 
+    display: flex;
   }
   
   .skills {

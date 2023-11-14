@@ -10,19 +10,25 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <img class="meImg" src={meIMG} />
-        <h2> Hi, I'm Hector</h2>
-        <div className="prompt">
-          <p>Software Engineer with a passion for change</p>
-          <Link href="https://www.linkedin.com/in/hectorll/" target="_blank" >
-              <LinkedInIcon/>
-          </Link>
-          <Link href="https://github.com/Hlopez490" target="_blank" >
-              <GitHubIcon/>
-          </Link>
-          <Link href="mailto:hlopezlopez490@gmail.com" target="_blank" >
-              <EmailIcon/>
-          </Link>
+        <div className="hero-container">
+          <div className="prompt">
+            <div className="name-container">
+              <p> Hi, I'm Hector</p>
+            </div>
+            <div className="details-container">
+              <p>Software Engineer with a passion for change</p>
+              <Link href="https://www.linkedin.com/in/hectorll/" target="_blank" >
+                  <LinkedInIcon/>
+              </Link>
+              <Link href="https://github.com/Hlopez490" target="_blank" >
+                  <GitHubIcon/>
+              </Link>
+              <Link href="mailto:hlopezlopez490@gmail.com" target="_blank" >
+                  <EmailIcon/>
+              </Link>
+            </div>
+          </div>
+          <img class="meImg" src={meIMG} />
         </div>
       </div>
       <div className="skills">
